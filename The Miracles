@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Welcome</title>
+  <script src="https://kit.fontawesome.com/6da9a7b08b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Cardo:ital@1&family=Galada&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="main">
+
+    <nav class="navbar">
+
+      <ul>
+        <li><a class="active" href="#main">Home</a></li>
+
+
+        <li><a href="#middle45">About</a></li>
+        <li><a href="#footer">Contact</a></li>
+        <li><a href="#news">Reviews</a></li>
+      </ul>
+    </nav>
+
+  </div>
+
+  <div class="top-bar">
+
+
+    <div class="container">
+
+      <div class="bottom-left">
+        <h1 class="name">The MIRACLES</h1>
+        <h2 class="subname">FEEL THE MAGIC<br />FEEL YOUR SELF</h2>
+      </div>
+    </div>
+    <div class="circle">
+
+    </div>
+    <div class="rectangle">
+
+    </div>
+    <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+    <div id="id01" class="modal">
+
+      <form class="modal-content animate" action="/action_page.php" method="post">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+          <img src="https://media-cdn.tripadvisor.com/media/photo-s/16/1a/ea/54/hotel-presidente-4s.jpg" alt="Avatar" class="avatar">
+        </div>
+
+        <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" name="remember">
+            <font color="#333">
+              Remember me</font>
+
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#faf3e0">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+          <span class="psw"> <a href="#">Forgot password?</a></span>
+        </div>
+      </form>
+    </div>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById('id01');
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    </script>
+  </div>
+  <center>
+    <hr />
+  </center>
+
+<div id="middle45">
+
+
+  <div class="middle">
+
+
+
+
+    <img class="food" src="https://wallpaperforu.com/wp-content/uploads/2020/10/food-wallpaper-20100313201245.jpg" alt="food" />
+    <h3 class="foods">Delicious food<br /></h3>
+    <h4 class="foods">World class cuisine, prepared <br />by our best chiefs. Taste got<br /> even better with our soothing<br /> music group.</h4>
+
+    <img class="room" src="https://www.hotel-metropolis.com/assets/cache/uploads/rooms/1920x1080/34-hotelmetropolis-suite14.jpg" alt="room" />
+    <h3 class="rooms">Luxurious rooms<br /></h3>
+    <h4 class="rooms">We provide world class <br />room services with affordable<br /> price and 24X7 room service.</h4>
+    <img class="pool" src="https://wallup.net/wp-content/uploads/2015/12/238178-nature-landscape-swimming_pool-palm_trees-resort-forest-water-tropical-exotic.jpg" alt="pool" />
+    <h3 class="pools">Relax to the fullest<br /></h3>
+    <h4 class="pools">Relax and forget all <br />all your problems. We have got<br /> the best view with pool <br /> to increase your relaxation level.</h4>
+
+    <img class="trek"
+      src="https://th.bing.com/th/id/Re35e9e60e5c74692e09eb8f3da6abacc?rik=psJyUOW%2fjUgeqg&riu=http%3a%2f%2f1.bp.blogspot.com%2f-mkN8ESgAoVQ%2fUQX8MokU9CI%2fAAAAAAAADGA%2frrFb6Z8N1A0%2fs1600%2f(Nepal)%2b%e2%80%93%2bMustang%2bTrekking%2b3.jpg&ehk=pq121jDs8Wig1ApTHTQgo2XJb6WJE5xKBbbiAdF2Qrg%3d&risl=&pid=ImgRaw" />
+    <h3 class="treking">Treking<br /></h3>
+    <h4 class="treking">Our Resort is sourrounded <br />lots of beautiful landscape. Which you<br /> can enjoy with your loved ones<br />and a best place to propose your<br /> life partner.</h4>
+    <img class="disco" src="https://bristolpride.co.uk/wp-content/uploads/2019/06/Silent_Disco_in_Bielefeld.jpg" />
+    <h3 class="dance">Disco<br /></h3>
+    <h4 class="dance">If you are into dance <br />and worrying about how you gonna<br /> enjoy without it, then we have a<br /> surprise for you 24X7 disco where<br /> only your will is the limit.</h4>
+    <img class="child" src="https://images.theconversation.com/files/343622/original/file-20200624-132414-7yro8p.jpg?ixlib=rb-1.1.0&rect=52%2C0%2C5816%2C3648&q=45&auto=format&w=496&fit=clip" alt="childcare">
+    <h3 class="childcare">childcare<br /></h3>
+    <h4 class="childcare">If you are a parent and<br />your child is small, you can use our<br />child care center where our experts<br />take care of your chiild so that you<br /> can enjoy to the fullest.</h4>
+
+  </div>
+  <hr />
+  <div id="fire">
+    <div class="square">
+
+    </div>
+
+    <h2 class="final">Come and fall in love<br /> with yourself</h2>
+  </div>
+</div>
+  <!-- Footer -->
+
+  <footer id="footer">
+    <div class="container-fluid">
+
+
+
+
+
+      <a href="https://twitter.com/"> <i class="social-icon fab fa-twitter-square"></i></a>
+
+
+      <a href="https://facebook.com/"> <i class="social-icon fab fa-facebook"></i></a>
+      <a href="https://instagram.com"> <i class="social-icon fab fa-instagram"></i></a>
+      <a href="https://linkedin.com"><i class="social-icon fab fa-linkedin"></i></a>
+      <p>© copy right of The MIRACLES</p>
+
+    </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
